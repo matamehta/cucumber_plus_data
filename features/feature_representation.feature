@@ -24,4 +24,4 @@ Feature: Represent a Feature file
     And I have loaded the "represent_sc03.feature" file into "feature_obj"
     And I have validated "feature_obj" holds a valid Feature file
     When I parse the "feature_obj"
-    Then I have one Feature Object and a array of scenarios
+    Then I have one Feature Object and an array of scenarios
